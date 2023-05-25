@@ -152,7 +152,6 @@ _G.ConfigMain = {
     ["Lock FPS Now"] = true,
     ["Select Lock FPS"] = 25,
 }
-_G.KaitunMode = true
 _G.Key = "EVAUN-X3DJ3-QD383"
 _G.DiscordId = "243198428367028224"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
