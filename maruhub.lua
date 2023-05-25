@@ -1,8 +1,8 @@
-_G.Settings.AutoFarmLevel = true -- true / false Auto Farm Level
-_G.Settings.AutoSecondSea = true -- true / false Auto Second Sea
-_G.Settings.AutoFarmFactory = false -- true / false Auto Farm Factory
-_G.Settings.AutoThirdSea = true -- true / false Auto Third Sea
-_G.Settings.AutoPiratesRaid = false -- true / false Auto Pirates Raid
+_G.Settings.AutoFarmLevel = true,
+_G.Settings.AutoSecondSea = true,
+_G.Settings.AutoFarmFactory = false,
+_G.Settings.AutoThirdSea = true,
+_G.Settings.AutoPiratesRaid = false,
 _G.Settings.AutoFarmFruitMastery = false -- true / false Auto Farm Fruit Mastery
 _G.Settings.AutoFarmGunMastery = false -- true / false Auto Farm Gun Mastery
 _G.Settings.SelectWeapon = ""  -- Your Weapons / Combat
