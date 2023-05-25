@@ -32,7 +32,7 @@ _G.ConfigMain = {
     ["Skill V"] = true,
 
     -- Setting etc
-    ["Fast Attack Mode"] = "Fast Attack", -- Normal Attack, Fast Attack, Super Fast Attack
+    ["Fast Attack Mode"] = "Super Fast Attack", -- Normal Attack, Fast Attack, Super Fast Attack
     ["Greater Teleportation"] = true,
     ["White Screen"] = true,
     ["Select Weapon"] = "",
