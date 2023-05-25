@@ -16,9 +16,7 @@ _G.Settings.SkillXMas = true -- true / false Skill X Mas
 _G.Settings.SkillCMas = true -- true / false Skill C Mas
 _G.Settings.SkillVMas = true -- true / false Skill V Mas
 _G.Settings.AutoDeathStep = true -- true / false Auto Death Step
-_G.Settings.SelectFruit = {"Bomb-Bomb","Spike-Spike","Chop-Chop","Spring-Spring","Kilo-Kilo","Spin-Spin","Bird: Falcon","Smoke-Smoke","Flame-Flame","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Love-Love","Rubber-Rubber","Barrier-Barrier","Magma-Magma","Door-Door","Quake-Quake","Human-Human: Buddha","String-String", "Bird-Bird: Phoenix","Rumble-Rumble","Paw-Paw","Gravity-Gravity","Dough-Dough","Venom-Venom","Shadow-Shadow","Control-Control","Soul-Soul","Dragon-Dragon","Leopard-Leopard"}
 _G.Settings.AutoBuyFruitSniper = false -- true / false Auto Buy FruitSniper
-_G.Settings.SelectFruitEat = {"Bomb-Bomb","Spike-Spike","Chop-Chop","Spring-Spring","Kilo-Kilo","Spin-Spin","Bird: Falcon","Smoke-Smoke","Flame-Flame","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Love-Love","Rubber-Rubber","Barrier-Barrier","Magma-Magma","Door-Door","Quake-Quake","Human-Human: Buddha","String-String", "Bird-Bird: Phoenix","Rumble-Rumble","Paw-Paw","Gravity-Gravity","Dough-Dough","Venom-Venom","Shadow-Shadow","Control-Control","Soul-Soul","Dragon-Dragon","Leopard-Leopard"}
 _G.Settings.Random_Auto = true -- true / false Random Auto 
 _G.Settings.AutoStoreFruit = true -- true / false Auto Store Fruit
 _G.Settings.BringFruit = false -- true / false Bring Fruit
@@ -47,11 +45,6 @@ _G.Settings.INFEnergy = false
 _G.Settings.AutoAgility = false
 _G.Settings.InfAb = false
 _G.Settings.EnabledFakeStat = false
-
-
-
-
-
 getgenv().Key = "MARU-ZCM4E-RUO7K-ATSW-ZCRXD-2SGC"
 getgenv().id = "243198428367028224"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
