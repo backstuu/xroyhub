@@ -1,7 +1,3 @@
-
-
-
-
 _G.Settings.AutoFarmLevel = "true" -- true / false Auto Farm Level
 _G.Settings.AutoSecondSea = "true" -- true / false Auto Second Sea
 _G.Settings.AutoFarmFactory = "true" -- true / false Auto Farm Factory
@@ -37,7 +33,7 @@ _G.Settings.EnabledHopCDk = "false" -- true / false Enabled HopCDk
 _G.Settings.NClip = "false" -- true / false N Clip
 _G.Settings.INFOBRange = "false" -- true / false INFOB Range
 -- Stats
-_G.Settings.PointsUp = 1 -- true / false
+_G.Settings.PointsUp = "1" -- true / false
 _G.Settings.AutoMelee = "true" -- true / false Auto Melee
 _G.Settings.AutoDefense = "true" -- true / false Auto Defense
 _G.Settings.AutoSword = "true" -- true / false Auto Sword
