@@ -150,7 +150,7 @@ _G.ConfigMain = {
     -- Setting
     ["Auto Save Config"] = true,
     ["Lock FPS Now"] = true,
-    ["Select Lock FPS"] = 40,
+    ["Select Lock FPS"] = 35,
 }
 _G.Key = "EVAUN-X3DJ3-QD383"
 _G.DiscordId = "243198428367028224"
