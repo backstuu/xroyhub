@@ -15,7 +15,7 @@ _G.Settings = {
     ['BringFruit'] = true,
     ['PointsUp'] = 1,
     ['AutoMelee'] = true,
-    ['AutoDefense'] = true,
+    ['AutoDefense'] = true
 }
 
 
