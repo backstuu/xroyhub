@@ -11,15 +11,13 @@ _G.Settings = {
     ['AutoSecondSea'] = true, -- true / false -- จอขาว
     ['AutoThirdSea'] = true,
     ['FastAttack'] = true,
-    ['SuperFastAttack'] = true,
-    ['SuperFastAttack2'] = true,
     ['AutoStoreFruit'] = true,
     ['AutoDeathStep'] = true,
     ['Random_Auto'] = true,
     ['BringFruit'] = true,
     ['PointsUp'] = 1,
     ['AutoMelee'] = true,
-    ['AutoDefense'] = true,
+    ['AutoDefense'] = true
 }
 
 
