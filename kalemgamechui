@@ -134,6 +134,7 @@ _G.ConfigMain = {
     ["Auto Observation Haki V2"] = false,
     -- ETC
     ["Auto Fast mode"] = true,
+    ["Fast mode"] = true,
     -- Raids
     ["Select Raids"] = "Flame", -- "Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand"
     ["Auto Raids Hop"] = false,
