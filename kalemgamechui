@@ -133,7 +133,7 @@ _G.ConfigMain = {
     ["Auto Musketee Hat"] = false,
     ["Auto Observation Haki V2"] = false,
     -- ETC
-    ["Auto Fast mode"] = false,
+    ["Auto Fast mode"] = true,
     -- Raids
     ["Select Raids"] = "Flame", -- "Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand"
     ["Auto Raids Hop"] = false,
