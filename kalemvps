@@ -153,6 +153,8 @@ _G.ConfigMain = {
     ["Lock FPS Now"] = true,
     ["Select Lock FPS"] = 45,
 }
+
+_G.Close_Ui = true
 _G.Key = "XV4Q7-TWCI0-0F591"
 _G.DiscordId = "1108386152433586196"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
