@@ -1,7 +1,7 @@
 _G.ConfigMain = {
     -- V ให้เลือกเปิดได้ 1 อันถ้าเปิดหลายตัวพร้อมกันจะทำให้สคริปบัค ****
     ["Auto Farm Level"] = true,
-    ["Double Quest"] = false,
+    ["Double Quest"] = true,
     ["Farm Boss Quest Too"] = false,
     ["Skip Farm Level"] = false,
     ["Auto Quest Level Farm"] = true,
