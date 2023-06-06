@@ -155,7 +155,7 @@ _G.ConfigMain = {
 }
 
 _G.Close_Ui = true
-_G.Key = "1GYDF-RIUD0-8A14F"
-_G.DiscordId = "1096916834311217184"
+_G.Key = "TLLTD-8S9ML-PY6MU"
+_G.DiscordId = "1103522787613749289"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
 
