@@ -154,6 +154,7 @@ _G.ConfigMain = {
     ["Select Lock FPS"] = 45,
 }
 _G.Close_Ui = true
+_G.Auto_Close_ui = true
 _G.Key = "EVAUN-X3DJ3-QD383"
 _G.DiscordId = "243198428367028224"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
