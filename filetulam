@@ -46,6 +46,8 @@ local pfp
 local user
 local tag
 local userinfo = {}
+
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
 local LocalPlayer.Team = game:GetService("Teams")["Pirates"]
 
 _G.Key = ""
