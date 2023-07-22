@@ -122,7 +122,6 @@ local Update = {}
 local pfp = "https://www.roblox.com/headshot-thumbnail/image?userId=".. game.Players.LocalPlayer.UserId .."&width=420&height=420&format=png"
 
 
-
 function Update:Window(text,logo,keybind)
 	local uihide = false
 	local abc = false
@@ -242,10 +241,6 @@ Logo.Image = "rbxassetid://12511245920"
                 end)
             end
         end)
-
- 
-
-        
 
 	local ver1 = Instance.new("TextLabel")
 	ver1.Name = "ver"
