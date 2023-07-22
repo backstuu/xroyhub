@@ -48,7 +48,8 @@ local tag
 local userinfo = {}
 
 
-Fruit_InServer = false
+
+local Fruit_InServer = false
 local Fruits_InServer = {}
 local Fruit_InHand = nil
 
@@ -69,6 +70,27 @@ if Fruit_InServer then
 	until LocalPlayer.Team == game:GetService("Teams")["Pirates"]
 	appendfile("Fruit Farm Logs.txt","\nSuccesfully switched to pirate team.")
 	
+	for _,v in pairs(Fruits_InServer) do
+		returnHRP().CFrame=v.Handle.CFrame
+		task.wait(.1)
+		Fruit_InHand = string.gsub(v.Name, " Fruit", "")
+		Fruit_InHand = Fruit_InHand.."-"..Fruit_InHand
+		for _=1,50 do spawn(function()task.wait()game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(table.unpack({    [1] = "StoreFruit",    [2] = Fruit_InHand,    [3] = returnHRP().Parent:FindFirstChildOfClass("Tool"),}))end) end
+		task.wait(0.1)
+		
+		appendfile("Fruit Farm Logs.txt","\nSuccesfully got the "..Fruit_InHand.." fruit. [".._.."/"..#Fruits_InServer.."]")
+		ServerHop()
+	end
+	
+	task.wait(.5)
+	appendfile("Fruit Farm Logs.txt","\nGot every fruit in this server. Moving onto the next server. | Powered by Extorius Scripts")
+	appendfile("Fruit Farm Logs.txt","\n------------------------------------------------------------")
+else
+	Servers_Empty = Servers_Empty + 1
+	appendfile("Fruit Farm Logs.txt","\nThere are no fruits in this server. Moving on to the next one.	"..os.date("%I")..":"..os.date("%M").." "..os.date("%p"))
+	ServerHop()
+end
+
 
 
 _G.Key = ""
