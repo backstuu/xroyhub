@@ -4698,7 +4698,7 @@ end
 
 if _G.Select_Weapon == nil then
 for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
-if v.ToolTip == "Melee" then
+if v.ToolTip == "Combat" then
 if game.Players.LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
 _G.Select_Weapon = tostring(v.Name)
 end
@@ -4730,6 +4730,11 @@ spawn(function()
              pcall(function()
                 game:GetService'VirtualUser':CaptureController()
 			    game:GetService'VirtualUser':Button1Down(Vector2.new(0,1,0,1))
+                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
+               
+
+                
+                
             end)
         end
     end)
@@ -4752,6 +4757,15 @@ Main:Toggle("Start Auto Farm",_G.Auto_Farm_Level,function(value)
  _G.Auto_Farm_Level = value
  StopTween(_G.Auto_Farm_Level)
 end)
+
+
+
+
+
+
+
+
+
 
 
 function EquipWeaponSword()
