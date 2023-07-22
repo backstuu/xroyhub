@@ -46,6 +46,7 @@ local pfp
 local user
 local tag
 local userinfo = {}
+local LocalPlayer.Team = game:GetService("Teams")["Pirates"]
 
 _G.Key = ""
 _G.Discord = ""
@@ -244,9 +245,8 @@ Logo.Image = "rbxassetid://12511245920"
         end)
 
  
-game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
-until LocalPlayer.Team == game:GetService("Teams")["Pirates"]
-       
+
+        
 
 	local ver1 = Instance.new("TextLabel")
 	ver1.Name = "ver"
