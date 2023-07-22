@@ -47,6 +47,30 @@ local user
 local tag
 local userinfo = {}
 
+
+Fruit_InServer = false
+local Fruits_InServer = {}
+local Fruit_InHand = nil
+
+for _,v in ipairs(workspace:GetChildren()) do
+	if v:IsA("Tool") then
+		Fruit_InServer = true
+		table.insert(Fruits_InServer, v)
+	end
+end
+
+if Fruit_InServer then
+	appendfile("Fruit Farm Logs.txt","\n\n"..tostring(#Fruits_InServer).." fruits detected in this server.	"..os.date("%I")..":"..os.date("%M").." "..os.date("%p"))
+	Servers_wFruit = Servers_wFruit + 1
+	
+	repeat
+		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(table.unpack({    [1] = "SetTeam",    [2] = "Pirates",}))
+		task.wait(.4)
+	until LocalPlayer.Team == game:GetService("Teams")["Pirates"]
+	appendfile("Fruit Farm Logs.txt","\nSuccesfully switched to pirate team.")
+	
+
+
 _G.Key = ""
 _G.Discord = ""
 
@@ -4255,6 +4279,7 @@ spawn(function()
   if _G.AutoSetSpawn then
   if game:GetService("Players").LocalPlayer.Character.Humanoid.Health > 0 then
   game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+  game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
   end
   end
   end
@@ -4749,9 +4774,7 @@ end)
 Main:Toggle("Start Auto Farm",_G.Auto_Farm_Level,function(value)
  _G.Auto_Farm_Level = value
 
- game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
- game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Teams", "Pirates")
-
+ 
 
  StopTween(_G.Auto_Farm_Level)
 end)
