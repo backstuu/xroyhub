@@ -4730,11 +4730,6 @@ spawn(function()
              pcall(function()
                 game:GetService'VirtualUser':CaptureController()
 			    game:GetService'VirtualUser':Button1Down(Vector2.new(0,1,0,1))
-                game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
-               
-
-                
-                
             end)
         end
     end)
@@ -4747,14 +4742,17 @@ Main:Button("Stop Teleport",function()
 
 Main:Seperator(" Main ")
 
-Main:Dropdown("Select Mode Farm", {
- "Level Farm","Fast Mode","No Quest","Near Farm Mode"
-},function(value)
+Main:Dropdown("Select Mode Farm","Level Farm",function(value)
  _G.Select_Mode_Farm = value
 end)
 
 Main:Toggle("Start Auto Farm",_G.Auto_Farm_Level,function(value)
  _G.Auto_Farm_Level = value
+
+ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
+ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Teams", "Pirates")
+
+
  StopTween(_G.Auto_Farm_Level)
 end)
 
@@ -4782,7 +4780,7 @@ end
 function EquipWeaponMelee()
 	pcall(function()
 		for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-			if v.ToolTip == "Melee" and v:IsA('Tool') then
+			if v.ToolTip == "Combat" and v:IsA('Tool') then
 				local ToolHumanoid = game.Players.LocalPlayer.Backpack:FindFirstChild(v.Name) 
 				game.Players.LocalPlayer.Character.Humanoid:EquipTool(ToolHumanoid) 
 			end
