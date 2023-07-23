@@ -103,6 +103,9 @@ _G.ConfigMain = {
     ["Auto Buy Bizarre Rifle"] = false,
     ["Auto Buy Ghoul Mask"] = false,
     ["Auto Buy Midnight Blade"] = false,
+     ["Allise Fruit"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
+
+
     -- Farm Etc. Three World [ Sea 3 ]
     ["Auto Find Full Moon Hop"] = false,
     ["Auto Mirage Island"] = false,
@@ -136,6 +139,9 @@ _G.ConfigMain = {
     ["Auto Fast mode"] = true,
     ["Fast mode"] = true,
     -- Raids
+    ["Select Rate Fruit Rais"] = 1000000, -- if fruit price less u rate then we use it to auto raids
+    ["Limit Raids Fragments"] = 100000,
+
     ["Select Raids"] = "Flame", -- "Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand"
     ["Auto Raids Hop"] = false,
     -- Devil Fruit Zone
@@ -143,12 +149,11 @@ _G.ConfigMain = {
     ["Bring Devil Fruit"] = true,
     ["Auto Random Devil Fruit"] = true,
 
-	-- Devil Fruit
+    ["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- ผลหลักที่จะกินเเทนผลรอง
+    ["Select Sub Devil Fruit Sinper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- ผลรองจะกินไว้ก่อนเเล้วพอผลหลักมีก้จะเปลียนไปกินผิดหลัก
+    ["Allow Eat Fruit In Inventory"] = true,
+   ["Start Sniper"] = true,
 
-	["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- ผลหลักที่จะกินเเทนผลรอง
-	["Select Sub Devil Fruit Sinper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- ผลรองจะกินไว้ก่อนเเล้วพอผลหลักมีก้จะเปลียนไปกินผิดหลัก
-	["Allow Eat Fruit In Inventory"] = true,
-	["Start Sniper"] = true,
 
 
 
