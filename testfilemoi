@@ -66,7 +66,7 @@ function AttackNoCD()
 end
 
 _G.Setting_table = {
-    Auto_Farm = false,
+    Auto_Farm = true,
     FastAttack = true,
     Auto_Buso = true,
     Auto_Ken = true,
