@@ -150,8 +150,8 @@ _G.ConfigMain = {
     ["Start Lock Bounty"] = false,
     -- Setting
     ["Auto Save Config"] = true,
-    ["Lock FPS Now"] = false,
-    ["Select Lock FPS"] = 45,
+    ["Lock FPS Now"] = true,
+    ["Select Lock FPS"] = 60,
 }
 
 _G.Close_Ui = true
