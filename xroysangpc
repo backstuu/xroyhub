@@ -142,6 +142,17 @@ _G.ConfigMain = {
     ["Auto Store Fruits"] = true,
     ["Bring Devil Fruit"] = true,
     ["Auto Random Devil Fruit"] = true,
+
+	-- Devil Fruit
+
+	["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- ผลหลักที่จะกินเเทนผลรอง
+	["Select Sub Devil Fruit Sinper"] = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- ผลรองจะกินไว้ก่อนเเล้วพอผลหลักมีก้จะเปลียนไปกินผิดหลัก
+	["Allow Eat Fruit In Inventory"] = true,
+	["Start Sniper"] = true,
+
+
+
+
     -- Players Zone 
     ["Auto Farm Bounty"] = false,
     -- Bounty Options 
