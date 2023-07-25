@@ -5,7 +5,7 @@ _G.ConfigMain = {
     ["Farm Boss Quest Too"] = false,
     ["Skip Farm Level"] = false,
     ["Auto Quest Level Farm"] = true,
-    ["Select Lock Level"] = 2400,
+    ["Select Lock Level"] = 1500,
     ["Start Lock Level"] = true,
     ["Select Lock Mastery"] = 600,
     ["Select Weapon Lock Mastery"] = "",
@@ -151,9 +151,8 @@ _G.ConfigMain = {
     -- Setting
     ["Auto Save Config"] = true,
     ["Lock FPS Now"] = true,
-    ["Select Lock FPS"] = 60,
+    ["Select Lock FPS"] = 45,
 }
-
 _G.Close_Ui = true
 _G.Auto_Close_ui = true
 _G.Key = "TLLTD-8S9ML-PY6MU"
