@@ -71,7 +71,7 @@ _G.KaitunConfig = {
 	-- RAM
 
 	["RAM Port"] = 7963,
-	["RAM Password"] = "",
+	["RAM Password"] = "Anhkg245",
 	["Auto Set Description"] = true,
 
 	-- Webhook
@@ -82,7 +82,7 @@ _G.KaitunConfig = {
 
 	-- CPU
 	
-	["Select Lock Fps"] = 15,
+	["Select Lock Fps"] = 40,
 	["Lock Fps Now"] = true,
 	["White Screen"] = true
 }
