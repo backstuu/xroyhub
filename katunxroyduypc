@@ -72,7 +72,7 @@ _G.KaitunConfig = {
 
 	["RAM Port"] = 7963,
 	["RAM Password"] = "",
-	["Auto Set Description"] = true,
+	["Auto Set Description"] = false,
 
 	-- Webhook
 
