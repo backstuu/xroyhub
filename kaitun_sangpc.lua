@@ -1,4 +1,5 @@
 _G.KaitunConfig = {
+	["Auto Farm Level"] = true,
 	["Auto Boost FPS"] = true,
 	["Skip Level Farm"] = false,
 	["Fast Attack Mode"] = "Fast Attack", -- "Fast Attack" , "More Then old Fast Attack" 
@@ -11,10 +12,10 @@ _G.KaitunConfig = {
 	["Auto Saber"] = true,
 	["Auto Second World"] = true,
 	-- World 2
-	["Auto Rengoku"] = true,
+	["Auto Rengoku"] = false,
 	["Auto Quest Flower"] = true,
-	["Auto V3 Race"] = true,
-	["Auto Bartilo"] = true,
+	["Auto V3 Race"] = false,
+	["Auto Bartilo"] = false,
 	["Auto Cursed Captain"] = true,
 	["Auto Darkbeard"] = true,
 	["Auto Factory"] = true,
@@ -22,18 +23,18 @@ _G.KaitunConfig = {
 	["Skip Get Item Guitar"] = true, -- จะไม่ หาของทำ soul guiter ในโลก 2 เบบ หาจนกว่าจะได้ will not find item until get all item for do soul guiter ( open recommend เเนะนำให้เปิด )
 	["Allise Fruit"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
 	-- World 3
-	["Auto Hallow Scythe"] = true,
-	["Auto Buddy Sword"] = true,
-	["Auto Dough King"] = true,
-	["Auto Spikey Trident"] = true,
-	["Auto Tushita"] = true,
-	["Auto Elite Hunter"] = true,
-	["Auto rip Indra"] = true,
-	["Auto Yama"] = true,
-	["Auto Canvander"] = true,
+	["Auto Hallow Scythe"] = false,
+	["Auto Buddy Sword"] = false,
+	["Auto Dough King"] = false,
+	["Auto Spikey Trident"] = false,
+	["Auto Tushita"] = false,
+	["Auto Elite Hunter"] = false,
+	["Auto rip Indra"] = false,
+	["Auto Yama"] = false,
+	["Auto Canvander"] = false,
 	["Auto Soul Guitar"] = true, 
-	["Auto Rainbow Haki"] = true,
-	["Auto Cursed Dual Katana"] = true,
+	["Auto Rainbow Haki"] = false,
+	["Auto Cursed Dual Katana"] = false,
 	
 	-- Fighting Style 
 	
@@ -51,7 +52,7 @@ _G.KaitunConfig = {
 		-- ["C"] = 0.1,
 		-- ["V"] = 0.1, -- อันไหนไม่เอาลบออกไปเลย
 	},
-	["Auto Mastery Sword"] = true,
+	["Auto Mastery Sword"] = false,
 	["Sword Rarity Select"] = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
 
 	["Select Redeem Code Level"] = 1,
