@@ -1,6 +1,6 @@
 _G.KaitunConfig = {
 	["Auto Boost FPS"] = true,
-	["Skip Level Farm"] = true,
+	["Skip Level Farm"] = false,
 	["Fast Attack Mode"] = "Fast Attack", -- "Fast Attack" , "More Then old Fast Attack" 
 	["Hop If Can't Kill Player"] = true,
 	["Block All Hop"] = false,
