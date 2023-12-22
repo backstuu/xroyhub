@@ -38,4 +38,4 @@ getgenv().DitBF = {
     ["Eat Sniper Blox Fruits"] = false,
 }
 getgenv().Key = "k453de01e672ca5089f12b17"
-loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()  ```
+loadstring(game:HttpGet("https://ditbloxfruit.cc/client.lua"))()
