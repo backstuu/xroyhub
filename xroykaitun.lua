@@ -24,7 +24,7 @@ _G.BountyConfig = {
             ["Delay Hop Time"] = 170, -- 2 min 30 sec -- and normal is hop when kill all player in server
         } ,
         ["Chat Sender"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Text"] = {"Hay mua royx de co quyen cong dan ","Config By #HoangNamLoveGura ","Royx Hub On Top",'Config By #HoangNamLoveGura '},
         },
 
