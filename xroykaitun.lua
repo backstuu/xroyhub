@@ -156,3 +156,4 @@ _G.BountyConfig = {
 _G.Key = "EVAUN-X3DJ3-QD383"
 _G.DiscordId = "243198428367028224"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Config/main/Kaitun_Config.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
