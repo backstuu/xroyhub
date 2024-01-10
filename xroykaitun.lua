@@ -1,23 +1,8 @@
 _G.JoinTeam = "Pirate" -- "Marine" & "Pirate"
-_G.KaitunConfig = {
-    ["Start Farm"] = true,
-    ["PlayerHunter"] = true,
-    ["Auto Fruit"] = true,
-    ["RedeemCode Level"] = 2,
-    
-    
-    ["Black Sreen"] = true,
-    -- sea 2
-    ["Auto Factory"] = true,
-    ["Sea 3 Hop"] = false, -- hop to find fruit
-    
-
-    ["LimitFragment"] = 100000
-}
 _G.BountyConfig = {
     ["Webhook"] = {
         ["Enabled"] = true,
-        ["Url"] = "https://discord.com/api/webhooks/1110606287076597821/3YfNQpFrFbzMUNC2D9fXUZX-dlpgCf8DoNrm606V4ei2zYxdi8bhDKlH8AROpoPtKgqg",
+        ["Url"] = "",
         ["CustomImage"] = "", -- if not in put = auto img
         ["Mode Send"] = {"On Bounty Change","On Server Hop"}
     },
@@ -39,8 +24,8 @@ _G.BountyConfig = {
             ["Delay Hop Time"] = 170, -- 2 min 30 sec -- and normal is hop when kill all player in server
         } ,
         ["Chat Sender"] = {
-            ["Enabled"] = false,
-            ["Text"] = {"Hay mua royx de co quyen cong dan ","Config By #HoangNamLoveGura ","Royx Hub On Top",'Config By #HoangNamLoveGura '},
+            ["Enabled"] = true,
+            ["Text"] = {"Hay mua royx de co quyen cong dan ","Dev dep chai gap ai ko ngan ","kid tuoi lon nha em ",'uh dep zai roi khoi khen hihi '},
         },
 
         ["% Health To Save"] = 35, -- this is if u health lower 35% it will be go safe zone
@@ -51,7 +36,7 @@ _G.BountyConfig = {
             ["Enabled"] = true ,
             ["Use This Skill on v4"] = { -- add skill that off/not have in custom method to this 
                 ["Gun"] = {
-                    ["Enabled"] = false,
+                    ["Enabled"] = true,
                     ["Delay"] = 0,
                     ["Skills"] = {
                         ["Z"] = {
@@ -167,6 +152,8 @@ _G.BountyConfig = {
         }
     }
 }
+
+
 
 _G.Key = "EVAUN-X3DJ3-QD383"
 _G.DiscordId = "243198428367028224"
