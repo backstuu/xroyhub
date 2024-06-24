@@ -1,3 +1,4 @@
+script_key = "HqswmBa86k93gHQ69udl"
 getgenv().Setting = {
     AutoSkipWave=true,
     AutoClaimQuest = true,
@@ -7,8 +8,13 @@ getgenv().Setting = {
     OneClickNewSetting = { 
         Enable = true,
         Feed = true,
-        AllUnitsToGo = {"Cursed Archer","Beast Sorcerer","Muscular Sorcerer","Admiral Of Lava","Strongest Swordsman"},
-        SnipeBannerUnits = {"Admiral Of Lava","Strongest Swordsman"},
+        Leave=false,
+        AllChapter = false,
+        IgnoreEquipBest = false,
+        LeaveWave = true,
+        RequiredLevel = 20,
+        AllUnitsToGo = {"Electric Cyborg","Beast Sorcerer","Warrior Princess","Admiral Of Lava","Strongest Swordsman"},
+        SnipeBannerUnits = {"Admiral Of Lava","Strongest Swordsman"}, --Snipe Unit Must Be In All Units To Use
         TradingSnipe = false,
         ForceInf = false, --Ignore Level, Unit
         AnyUnitMythical_Secret = {
@@ -16,9 +22,8 @@ getgenv().Setting = {
             Feed=true,
             IgnoreLevel = false
         },
-        TradingSnipeUnits = {"Muscular Sorcerer"},
-        MaxGemUnit = 2000,
-        RequiredLevel = 20,
+        TradingSnipeUnits = {"Electric Cyborg"},
+        MaxGemUnit = 1000,
     },
 }
 if getgenv().Loaded  then
